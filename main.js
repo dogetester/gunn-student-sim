@@ -581,7 +581,7 @@ const clicks = {
   doHW() {
     gameState.homeworks--;
     updateHomework();
-    addHours(1, true);
+    addHours(0, true);
   },
   sleep() {
     const sleepLength = Math.ceil((gameState.time - 8) / 24) * 24 + 8 - gameState.time;
