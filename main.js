@@ -31,7 +31,7 @@ const gameState = {
   sleeplessNights: 0,
   tests: 0,
   grade: 100,
-  friends: 50, //edited
+  friends: 3,
   testReadiness: 0,
   testsTaken: 1,
   friendExpectation: 3,
