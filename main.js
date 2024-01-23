@@ -576,7 +576,7 @@ const clicks = {
         break;
     }
     renderer.satPercent.textContent = 100 * gameState.studySAT / config.MAX_SAT_STUDY;
-    addHours(1, true);
+    addHours(0, true);
   },
   doHW() {
     gameState.homeworks--;
